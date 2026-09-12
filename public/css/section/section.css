@@ -1,0 +1,10 @@
+@import url("./nav/nav.css");
+@import url("./corpo/corpo.css");
+@import url("./corpo/main.css");
+@import url("./corpo/footer.css");
+
+section {
+	border: .5rem solid blue;
+	display: flex;
+	max-height: 100%;
+}

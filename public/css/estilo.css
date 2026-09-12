@@ -1,0 +1,6 @@
+@import url("./header/header.css");
+@import url("./section/section.css");
+
+* {
+	font-family: 'Courier New', Courier, monospace;
+}

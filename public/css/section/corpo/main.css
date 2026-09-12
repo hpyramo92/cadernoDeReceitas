@@ -1,0 +1,6 @@
+main {
+	border: .5rem solid green;
+	display: flex;
+	height: 80%;
+	flex-direction: column;
+}

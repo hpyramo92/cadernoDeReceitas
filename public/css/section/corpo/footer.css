@@ -1,0 +1,19 @@
+footer {
+	border: .5rem solid yellow;
+	/* max-height: 20%; */
+	font-size: .8rem;
+	display: flex;
+	width: 100%;
+}
+
+footer .sobre {
+	border: .5rem solid orange;
+}
+
+footer .cozinhas {
+	border: .5rem solid pink;
+}
+
+footer .redesSociais {
+	border: .5rem solid brown;
+}
