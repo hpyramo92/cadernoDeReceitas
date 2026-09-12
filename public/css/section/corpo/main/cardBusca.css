@@ -36,10 +36,10 @@ input {
 	border: none;
 	border-radius: .5rem;
 	cursor: pointer;
-	margin-top: 1rem;
 	text-align: center;
 	text-decoration: none;
 	display: flex;
+	margin: .4rem;
 }
 
 .icone-final-cartao {
