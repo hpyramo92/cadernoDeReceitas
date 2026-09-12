@@ -49,6 +49,15 @@
 				<li>
 					<a href="#">
 						<div class="opcao">
+							<div class="icone"><i class="fa-solid fa-bookmark"></i></div>
+							<div class="rotulo">Favoritos</div>
+							<div class="icone-final"><i class="fa-solid fa-chevron-right"></i></div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
 							<div class="icone">
 								<i class="fa-solid fa-info-circle"></i>
 							</div>
@@ -68,16 +77,19 @@
 						<h1>Bem vindo! O que vamos cozinhar hoje?</h1>
 					</div>
 					<div class="corpoCardBusca">
-						<input type="text" placeholder="Buscar receita...">
-						<input type="select" placeholder="Todas as cozinhas">
-						<a href="#">
-							<div class="botaoCardBusca">
-								<div class="rotulo">Acesse</div>
-								<div class="icone-final-cartao">
-									<i class="fa-solid fa-chevron-right"></i>
-								</div>
-							</div>
-						</a>
+						<form class="corpoCardBusca" action="#" method="GET">
+							<input type="text" name="busca" placeholder="Buscar receita...">
+							<select name="cozinha">
+								<option value="">Todas as cozinhas</option>
+								<option value="italiana">Italiana</option>
+								<option value="brasileira">Brasileira</option>
+								<option value="brasileira">Chinesa</option>
+							</select>
+							<button type="submit" class="botaoCardBusca">
+								<span class="rotulo">Acesse</span>
+								<span class="icone-final-cartao"><i class="fa-solid fa-chevron-right"></i></span>
+							</button>
+						</form>
 					</div>
 				</div>
 				<div class="cozinhasEmDestaque">
