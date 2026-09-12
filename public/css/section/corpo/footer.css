@@ -1,4 +1,4 @@
-footer {
+.rodapePrincipal {
 	/* border: .5rem solid yellow; */
 	/* max-height: 20%; */
 	background-color: rgb(240, 202, 169);
@@ -7,22 +7,22 @@ footer {
 	flex: 1;
 }
 
-footer ul {
+.rodapePrincipal ul {
 	margin: 0;
 	padding: .5rem;
 }
 
-footer a {
+.rodapePrincipal a {
 	text-decoration: none;
 	color: #141414d3;
 }
 
-footer .sobre {
+.rodapePrincipal .sobre {
 	/* border: .5rem solid orange; */
 	width: 33%;
 }
 
-footer .cozinhas {
+.rodapePrincipal .cozinhas {
 	/* border: .5rem solid pink; */
 	width: 33%
 }
@@ -35,7 +35,7 @@ footer .cozinhas {
 	margin: 0 1rem 1rem 0;
 }
 
-footer .redesSociais {
+.rodapePrincipal .redesSociais {
 	/* border: .5rem solid brown; */
 	width: 33%;
 }
