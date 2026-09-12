@@ -17,7 +17,7 @@
 		<h1 class="titulo">Receitas do Henrique</h1>
 	</header>
 
-	<section>
+	<section class="conteudo">
 		<nav>
 			<ul class="menu-lateral">
 				<li>
@@ -70,7 +70,14 @@
 					<div class="corpoCardBusca">
 						<input type="text" placeholder="Buscar receita...">
 						<input type="select" placeholder="Todas as cozinhas">
-						<button>Buscar</button>
+						<a href="#">
+							<div class="botaoCardBusca">
+								<div class="rotulo">Acesse</div>
+								<div class="icone-final-cartao">
+									<i class="fa-solid fa-chevron-right"></i>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 				<div class="cozinhasEmDestaque">
@@ -90,24 +97,68 @@
 				</div>
 				<div class="receitasRecentes">
 					<h2>Receitas recentes</h2>
-					<article class="cardReceitaRecente">
-						<img src="./img/ravioli.jpg" alt="Receita 1">
-						<h3>Ravioli - Italiana</h3>
-						<p>40m</p>
-						<p>Dificuldade média</p>
-					</article>
-					<article class="cardReceitaRecente">
-						<img src="./img/feijoada.jpg" alt="Receita 2">
-						<h3>Feijoada - Brasileira</h3>
-						<p>90m</p>
-						<p>Dificuldade difícil</p>
-					</article>
-					<article class="cardReceitaRecente">
-						<img src="./img/arrozFrito.jpg" alt="Receita 3">
-						<h3>Arroz Frito - Chinesa</h3>
-						<p>20m</p>
-						<p>Dificuldade fácil</p>
-					</article>
+					<section class="receitasRecentesWrapper">
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/ravioli.jpg" alt="Receita 1">
+								<h3>Ravioli - Italiana</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">40m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade média</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/feijoada.jpg" alt="Receita 2">
+								<h3>Feijoada - Brasileira</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">90m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade difícil</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/arrozFrito.jpg" alt="Receita 3">
+								<h3>Arroz Frito - Chinesa</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">20m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade fácil</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+					</section>
 				</div>
 			</main>
 			<footer>

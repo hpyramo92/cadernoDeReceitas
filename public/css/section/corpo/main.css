@@ -1,16 +1,12 @@
+@import url("./cardBusca.css");
+@import url("./cozinhasEmDestaque.css");
+@import url("./receitasRecentes.css");
+
 main {
 	border: .5rem solid green;
 	/* background-color: green; */
 	display: flex;
 	flex: 1;
-	/* height: 80%; */
 	flex-direction: column;
-}
-
-.receitasRecentes {
-	border: .5rem solid blue;
-}
-
-.cardReceitaRecente {
-	border: .5rem solid red;
+	padding: .5rem;
 }
