@@ -6,3 +6,11 @@ main {
 	/* height: 80%; */
 	flex-direction: column;
 }
+
+.receitasRecentes {
+	border: .5rem solid blue;
+}
+
+.cardReceitaRecente {
+	border: .5rem solid red;
+}
