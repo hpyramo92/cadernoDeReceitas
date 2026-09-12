@@ -8,6 +8,8 @@
 
 .cardReceitaRecente {
 	/* border: .5rem solid red; */
+	background-color: rgb(240, 202, 169);
+	border-radius: .5rem;
 }
 
 .cardReceitaRecenteCabecalho {
@@ -27,6 +29,7 @@
 	height: auto;
 	object-fit: cover;
 	border-radius: .5rem;
+	padding: 1rem;
 }
 
 .cardReceitaRecenteCabecalho h3 {}
@@ -39,12 +42,14 @@
 
 .cardReceitaRecenteConteudoTempo {
 	/* border: .5rem solid orange; */
-	font-size: .8rem;
+	font-size: .9rem;
+	padding-left: .5rem;
 }
 
 .cardReceitaRecenteConteudoDificuldade {
 	/* border: .5rem solid orangered; */
-	font-size: .8rem;
+	font-size: .9rem;
+	padding-right: .5rem;
 }
 
 .cardReceitaRecenteBotao {

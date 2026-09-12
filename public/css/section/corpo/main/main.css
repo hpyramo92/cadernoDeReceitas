@@ -3,8 +3,7 @@
 @import url("./receitasRecentes.css");
 
 main {
-	border: .5rem solid green;
-	/* background-color: green; */
+	/* border: .5rem solid green; */
 	display: flex;
 	flex: 1;
 	flex-direction: column;
