@@ -1,6 +1,8 @@
 main {
 	border: .5rem solid green;
+	/* background-color: green; */
 	display: flex;
+	flex: 1;
 	height: 80%;
 	flex-direction: column;
 }
