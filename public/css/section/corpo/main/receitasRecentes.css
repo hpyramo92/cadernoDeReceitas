@@ -4,6 +4,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	position: relative;
 }
 
 .cardReceitaRecente {
@@ -44,6 +45,7 @@
 	/* border: .5rem solid orange; */
 	font-size: .9rem;
 	padding-left: .5rem;
+	position: absolute;
 }
 
 .cardReceitaRecenteConteudoDificuldade {
