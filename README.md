@@ -11,4 +11,18 @@ Repositório para o trabalho da disciplina (724101) Desenvolvimento Web Front- E
 ![Wireframe da Home-page](wireframe.png)
 
 ## Print da home-page criada para o projeto
-![Wireframe da Home-page](homepage.png)
+![Print da home-page criada para o projeto](homepage.png)
+
+## Print da home-page responsiva
+![Tela1](./prints/Semana5/tela1.png)
+---
+![Tela2](./prints/Semana5/tela2.png)
+---
+![Tela3](./prints/Semana5/tela3.png)
+---
+![Tela4](./prints/Semana5/tela4.png)
+---
+![Tela5](./prints/Semana5/tela5.png)
+---
+![Tela6](./prints/Semana5/tela6.png)
+---
