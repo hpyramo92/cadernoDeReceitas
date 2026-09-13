@@ -11,6 +11,17 @@
 
 .cabecalhoCardBusca {
 	/* border: .5rem solid yellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cabecalhoCardBusca img {
+	aspect-ratio: 16/9;
+	width: 50%;
+	border-radius: .5rem;
 }
 
 .corpoCardBusca {
